@@ -17,3 +17,20 @@ svg {
 path:hover {
   fill: #b46464;
 }
+
+.singalPinIcon {
+  position: absolute;
+  font-size: 35px;
+  color: #cf2528;
+  transition: all 0.2s;
+}
+
+.singalPinIcon:hover {
+  transform: translateY(-3px);
+}
+
+.singalPinIcon.BD {
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+}
