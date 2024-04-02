@@ -7,6 +7,7 @@
 body {
   width: 100%;
   height: 100%;
+  background: #6cd2e7;
 }
 
 svg {
@@ -14,8 +15,12 @@ svg {
   height: 100vh;
 }
 
+path{
+  fill: #fbf8f3;
+}
+
 path:hover {
-  fill: #b46464;
+  fill: #90e0be;
 }
 
 .singalPinIcon {
@@ -25,12 +30,28 @@ path:hover {
   transition: all 0.2s;
 }
 
+.pniLocationBD{
+  fill: green;
+}
+
+.pniLocationIN{
+  fill: orange;
+}
+
+.pniLocationAT{
+  fill: #e628384d;
+}
+
+.pniLocationNOR{
+  fill: #002765;
+}
+
 .singalPinIcon:hover {
   transform: translateY(-3px);
 }
 
 .singalPinIcon.BD {
-  top: 50%;
-  left: 50%;
+  /* top: 200px; */
+  /* left: 800px; */
   cursor: pointer;
 }
