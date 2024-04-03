@@ -10,9 +10,9 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  transition: all 0.2s;
   background: #6cd2e7; /*344475  */
   font-family: "Roboto", sans-serif;
-  transition: all 0.2s;
 }
 
 svg {
@@ -38,38 +38,36 @@ svg {
 
 .pniLocationBD {
   fill: green;
+  cursor: pointer;
 }
 
 .pniLocationIN {
   fill: orange;
+  cursor: pointer;
 }
 
 .pniLocationAT {
   fill: #e628384d;
+  cursor: pointer;
 }
 
 .pniLocationNOR {
   fill: #002765;
+  cursor: pointer;
 }
 
 .singalPinIcon:hover {
   transform: translateY(-3px);
 }
 
-.singalPinIcon.BD {
-  /* top: 200px; */
-  /* left: 800px; */
-  cursor: pointer;
-}
-
 .mapNmaeShow {
   position: absolute;
-  display: none;
   padding: 5px;
-  background-color: #ffffff;
+  display: none;
   color: #cf2528;
   border-radius: 5px;
   transition: all 0.3s;
+  background-color: #ffffff;
   border: 1px solid #fbf8f3;
 }
 
@@ -84,14 +82,127 @@ svg {
   right: 15px;
   width: 80px;
   height: 80px;
-  border-radius: 10px;
-  overflow: hidden;
-  border: 2px solid #fff;
   cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid #fff;
 }
 
 .mapLayoutImage img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.countryInfoSidBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  max-width: 408px;
+  overflow-y: auto;
+  background: #fff;
+  overflow-x: hidden;
+  transition: all 0.3s;
+}
+
+.countryInfoSidBar::-webkit-scrollbar-track {
+  background-color: #f7f7f7;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.24);
+}
+
+.countryInfoSidBar::-webkit-scrollbar {
+  width: 5px;
+  background-color: #fdfdfd;
+}
+
+.countryInfoSidBar::-webkit-scrollbar-thumb {
+  background-color: #666666;
+  /* border: 2px solid #555555; */
+}
+
+.countryInfoSidBarImage {
+  width: 100%;
+  height: 250px;
+}
+
+.countryInfoSidBarImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.countryInfoName {
+  padding: 16px 24px;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.countryInfoName h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.countryInfoName p {
+  font-size: 15px;
+  color: #3f3f3f;
+  font-weight: 400;
+}
+
+.countryInfoSidBarNavegation {
+  padding: 16px 24px;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.countryInfoSidBarNavegation ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.countryInfoSidBarNavegation ul li a {
+  color: #1a73e8;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+}
+
+.countryInfoSidBarNavegation ul li a i {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #1a73e8;
+}
+
+.countryInfoSidBarNavegation ul li a p {
+  font-size: 14px;
+}
+
+.countryInfoSidBarQuickFacts {
+  padding: 16px 24px;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.countryInfoSidBarQuickFacts h3 {
+  font-size: 16px;
+  font-weight: 500;
+  min-height: 30px;
+}
+
+.countryInfoSidBarQuickFacts p {
+  font-size: 15px;
+  color: #353535;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.countryInfoSidBarGoogleMap {
+  padding: 16px 24px;
+  border-bottom: 1px solid #c9c9c9;
 }
