@@ -34,26 +34,23 @@ svg {
   font-size: 35px;
   color: #cf2528;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .pniLocationBD {
   fill: green;
-  cursor: pointer;
 }
 
 .pniLocationIN {
   fill: orange;
-  cursor: pointer;
 }
 
 .pniLocationAT {
   fill: #e628384d;
-  cursor: pointer;
 }
 
 .pniLocationNOR {
   fill: #002765;
-  cursor: pointer;
 }
 
 .singalPinIcon:hover {
@@ -98,25 +95,33 @@ svg {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
-  max-width: 408px;
-  overflow-y: auto;
-  background: #fff;
-  overflow-x: hidden;
+
+  /* background: #fff; */
+
   transition: all 0.3s;
 }
 
-.countryInfoSidBar::-webkit-scrollbar-track {
+.countryInfoSidBarContainer {
+  position: relative;
+  height: 100vh;
+  max-width: 408px;
+  min-width: 408px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.countryInfoSidBarContainer::-webkit-scrollbar-track {
   background-color: #f7f7f7;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.24);
 }
 
-.countryInfoSidBar::-webkit-scrollbar {
+.countryInfoSidBarContainer::-webkit-scrollbar {
   width: 5px;
   background-color: #fdfdfd;
 }
 
-.countryInfoSidBar::-webkit-scrollbar-thumb {
+.countryInfoSidBarContainer::-webkit-scrollbar-thumb {
   background-color: #666666;
   /* border: 2px solid #555555; */
 }
@@ -205,4 +210,26 @@ svg {
 .countryInfoSidBarGoogleMap {
   padding: 16px 24px;
   border-bottom: 1px solid #c9c9c9;
+}
+
+.countryInfoSidBarCancel {
+  position: absolute;
+  top: 0px;
+  right: 00px;
+  padding: 5px 8px 20px 100px;
+  cursor: pointer;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    198deg,
+    rgba(0, 0, 0, 0.308) 15%,
+    rgba(255, 255, 255, 0) 48%
+  );
+  clip-path: polygon(100% 1%, 0 0, 100% 100%);
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+.countryInfoSidBarCancel i {
+  font-size: 20px;
+  color: #f3f3f3;
 }

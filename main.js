@@ -12,91 +12,49 @@ const pinLocationInformation = [
     address: [
       (address1 =
         "Rupayan Shelford, Apt#10-F, Plot#23/6 Bir Uttam A.N.M. Nuruzzaman Road, Shyamoli"),
-      (address2 =
-        "Rupayan Shelford, Apt#10-F, Plot#23/6 Bir Uttam A.N.M. Nuruzzaman Road, Shyamoli"),
       (desc =
-        "Established in 2007, Saffron Corporation Ltd. stands as a pioneering force in the realm of software development and business solutions in Bangladesh. With a relentless commitment to cutting-edge technology and strategic consulting, we have continuously evolved, ensuring our clients stay ahead in a dynamic business landscape. At SCL, we redefine possibilities in the digital realm. As a trailblazing force in the IT industry, we bring together expertise, innovation, and a commitment to excellence to drive your business forward."),
+        "Established in 2007, Saffron Corporation Ltd. stands as a pioneering force in the realm of software development and business solutions in Bangladesh. With a relentless commitment to cutting-edge technology and strategic consulting, we have continuously evolved, ensuring our clients stay ahead in a dynamic business landscape."),
     ],
     email: "info@saffroncorporation.com.bd",
     phone: "+88-02-48113179",
-    profile_image: [
-      (img1 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-1.jpg"),
-      (img2 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-2.jpg"),
-      (img3 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-3.jpg"),
-      (img4 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-4.jpg"),
-      (img5 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-5.jpg"),
-      (img6 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-6.jpg"),
-      (img7 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-7.jpg"),
-      (img8 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-8.jpg"),
-      (img9 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-9.jpg"),
-      (img10 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-10.jpg"),
-      (img11 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-11.jpg"),
-      (img12 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-12.jpg"),
-      (img13 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-13.jpg"),
-      (img14 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-14.jpg"),
-      (img15 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-15.jpg"),
-      (img16 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffron-16.jpg"),
-    ],
-
+    profile_image:
+      "https://lh3.googleusercontent.com/p/AF1QipO5UAg96c6iDhNjqlORONLSbzOvpdSVRQqoBrNO=s680-w680-h510",
     iframe_src:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5866059986033!2d90.3549930751155!3d23.762116778662353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf5f91df2885%3A0xa4cf024ab5a23ce5!2sSaffron%20Corporation%20Ltd.!5e0!3m2!1sen!2sbd!4v1687608992503!5m2!1sen!2sbd",
     google_map: "https://maps.app.goo.gl/ncU75iyeYsqL9RtL6",
   },
   {
     id: "address2",
-    name: "GD-191",
+    name: "25, Shakespeare Sarani Rd",
     reviews: 3.0,
     address: [
       (address1 =
-        "GD-191, GD Block, Sector 3, Bidhannagar, Kolkata, West Bengal 700106, India"),
+        "25, shakespeare sarani road, kolkata-700017, west bengal, india"),
       (desc =
-        "Established in 2007, Saffron Corporation Ltd. stands as a pioneering force in the realm of software development and business solutions in Bangladesh. With a relentless commitment to cutting-edge technology and strategic consulting, we have continuously evolved, ensuring our clients stay ahead in a dynamic business landscape. At SCL, we redefine possibilities in the digital realm. As a trailblazing force in the IT industry, we bring together expertise, innovation, and a commitment to excellence to drive your business forward."),
+        "Established in 2007, Saffron Corporation Ltd. stands as a pioneering force in the realm of software development and business solutions in Bangladesh. With a relentless commitment to cutting-edge technology and strategic consulting, we have continuously evolved, ensuring our clients stay ahead in a dynamic business landscape."),
     ],
     email: "info@saffroncorporation.com.bd",
     phone: "+88-02-48113179",
-    profile_image: [
-      (img1 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffronAddres2.jpg"),
-    ],
+    profile_image:
+      "https://imageproxy-v2.services.lokalebasen.dk/h1080/lb-images-asia/in/765050/picture20170911-48728-1go6fll.jpg?v=m1664363520",
 
     iframe_src:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.0321036839237!2d88.41260497507787!3d22.577902579488022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275c5c1949563%3A0x6d7f91db6eb082a7!2sGD-191%2C%20GD%20Block%2C%20Sector%20III%2C%20Bidhannagar%2C%20Kolkata%2C%20West%20Bengal%20700106%2C%20India!5e0!3m2!1sen!2sbd!4v1687609515449!5m2!1sen!2sbd",
-    google_map: "https://maps.app.goo.gl/M6YXU5NTGJUbfBUP8",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.9102754894993!2d88.3549786!3d22.5450336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277199a6711cf%3A0x3d309db42567b229!2s25%2C%20Shakespeare%20Sarani%20Rd%2C%20near%20Khosla%20Electronics%20-%20Best%20Electronic%20Store%20in%20Theater%20Road%20%7C%20Kitchen%20Appliances%20%7C%20Cookware%2C%20Dishwashers%2C%20Smart%20Refrigerators%2C%20Mullick%20Bazar%2C%20Elgin%2C%20Kolkata%2C%20West%20Bengal%20700017%2C%20India!5e0!3m2!1sen!2sbd!4v1712206010054!5m2!1sen!2sbd",
+    google_map: "https://maps.app.goo.gl/QHQ3jnH6oSSd8ffcA",
   },
   {
     id: "address3",
-    name: "Saffron Corporation Ltd.",
-    reviews: 3.8,
+    name: "Wiedner Gürtel 13",
+    reviews: 5.0,
     address: [
-      (address1 =
-        "Rupayan Shelford, Apt#10-F, Plot#23/6 Bir Uttam A.N.M. Nuruzzaman Road, Shyamoli"),
-      (address2 =
-        "Rupayan Shelford, Apt#10-F, Plot#23/6 Bir Uttam A.N.M. Nuruzzaman Road, Shyamoli"),
+      (address1 = "Wiedner Gürtel 13, 1100 Wien, Austria"),
       (desc =
-        "Established in 2007, Saffron Corporation Ltd. stands as a pioneering force in the realm of software development and business solutions in Bangladesh. With a relentless commitment to cutting-edge technology and strategic consulting, we have continuously evolved, ensuring our clients stay ahead in a dynamic business landscape. At SCL, we redefine possibilities in the digital realm. As a trailblazing force in the IT industry, we bring together expertise, innovation, and a commitment to excellence to drive your business forward."),
+        "Established in 2007, Saffron Corporation Ltd. stands as a pioneering force in the realm of software development and business solutions in Bangladesh. With a relentless commitment to cutting-edge technology and strategic consulting, we have continuously evolved, ensuring our clients stay ahead in a dynamic business landscape."),
     ],
     email: "info@saffroncorporation.com.bd",
     phone: "+88-02-48113179",
-    profile_image: [
-      (img1 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffronAddress3.jpg"),
-    ],
+    profile_image:
+      "https://www.alukoenigstahl.at/de/PublishingImages/01%20Referenzen/01_%C3%96sterreich/AT_The%20Icon%20Vienna/TI10.jpg?RenditionID=6",
 
     iframe_src:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.065245580166!2d16.373967576265013!3d48.18609437124883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476da9d70318fc65%3A0x5d3169e5a2391719!2sWiedner%20G%C3%BCrtel%2013%2C%201100%20Wien%2C%20Austria!5e0!3m2!1sen!2sbd!4v1687609558249!5m2!1sen!2sbd",
@@ -105,19 +63,16 @@ const pinLocationInformation = [
   {
     id: "address4",
     name: "Grubbegata 1",
-    reviews: 3.8,
+    reviews: 3.4,
     address: [
-      (address1 =
-        "Rupayan Shelford, Apt#10-F, Plot#23/6 Bir Uttam A.N.M. Nuruzzaman Road, Shyamoli"),
+      (address1 = "Grubbegata 1 Sandakerveien 64 Oslo Norway"),
       (desc =
-        "Established in 2007, Saffron Corporation Ltd. stands as a pioneering force in the realm of software development and business solutions in Bangladesh. With a relentless commitment to cutting-edge technology and strategic consulting, we have continuously evolved, ensuring our clients stay ahead in a dynamic business landscape. At SCL, we redefine possibilities in the digital realm. As a trailblazing force in the IT industry, we bring together expertise, innovation, and a commitment to excellence to drive your business forward."),
+        "Established in 2007, Saffron Corporation Ltd. stands as a pioneering force in the realm of software development and business solutions in Bangladesh. With a relentless commitment to cutting-edge technology and strategic consulting, we have continuously evolved, ensuring our clients stay ahead in a dynamic business landscape."),
     ],
     email: "info@saffroncorporation.com.bd",
     phone: "+88-02-48113179",
-    profile_image: [
-      (img1 =
-        "https://github.com/shadat-hossan/Image-server/blob/main/saffron/saffronAddress4.jpg"),
-    ],
+    profile_image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Grubbegata_14%2C_Oslo.jpg/1280px-Grubbegata_14%2C_Oslo.jpg",
 
     iframe_src:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.0836251580672!2d10.742405377030023!3d59.91415947490285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e62ea60887f%3A0x68711cdd4442773f!2sGrubbegata%201%2C%200179%20Oslo%2C%20Norway!5e0!3m2!1sen!2sbd!4v1687609591115!5m2!1sen!2sbd",
@@ -135,18 +90,34 @@ function positionPinIcon(
   const pinIcon = document.querySelector(pinIconSelector);
   const svgPathRect = svgPath.getBoundingClientRect();
 
-  const relativeTop = svgPathRect.top + window.scrollY + topOffset;
-  const relativeLeft = svgPathRect.left + window.scrollX + leftOffset;
+  const relativeTop = svgPathRect.top + 0 + topOffset;
+  const relativeLeft = svgPathRect.left + 0 + leftOffset;
 
   pinIcon.style.top = relativeTop + "px";
   pinIcon.style.left = relativeLeft + "px";
 }
 
 function loadAvin() {
-  positionPinIcon(".pniLocationBD", ".singalPinIcon.BD", -22, -3);
-  positionPinIcon(".pniLocationIN", ".singalPinIcon.IN", 30, 22);
-  positionPinIcon(".pniLocationAT", ".singalPinIcon.AT", -28, 1);
-  positionPinIcon(".pniLocationNOR", ".singalPinIcon.NOR", -1, -2);
+  let pageX = window.innerWidth;
+  let pageY = window.innerHeight;
+
+  console.log(pageX, pageY);
+  if (pageX >= 1600 || pageY >= 1600) {
+    positionPinIcon(".pniLocationBD", ".singalPinIcon.BD", -20, -1);
+    positionPinIcon(".pniLocationIN", ".singalPinIcon.IN", 30, 22);
+    positionPinIcon(".pniLocationAT", ".singalPinIcon.AT", -28, 1);
+    positionPinIcon(".pniLocationNOR", ".singalPinIcon.NOR", -1, -2);
+  } else if (pageX >= 1000 || pageY >= 1000) {
+    positionPinIcon(".pniLocationBD", ".singalPinIcon.BD", -25, -1);
+    positionPinIcon(".pniLocationIN", ".singalPinIcon.IN", 15, 20);
+    positionPinIcon(".pniLocationAT", ".singalPinIcon.AT", -29, 1);
+    positionPinIcon(".pniLocationNOR", ".singalPinIcon.NOR", -2, -2);
+  } else {
+    positionPinIcon(".pniLocationBD", ".singalPinIcon.BD", -20, -30);
+    positionPinIcon(".pniLocationIN", ".singalPinIcon.IN", 40, 20);
+    positionPinIcon(".pniLocationAT", ".singalPinIcon.AT", -2, 1);
+    positionPinIcon(".pniLocationNOR", ".singalPinIcon.NOR", -4, -5);
+  }
 }
 
 loadAvin();
@@ -173,7 +144,6 @@ singalPinIcon.forEach(function (i) {
     let pageX = e.offsetX;
     let pagesY = e.clientY;
     let pagsX = e.clientX;
-    console.log(pageX + 100 + "px", pageY + 100 + "px");
     mapNmaeShow.style.top = pageY + pagesY + "px";
     mapNmaeShow.style.left = pageX + pagsX + "px";
     mapNmaeShow.style.display = "inline";
@@ -190,7 +160,71 @@ singalPinIcon.forEach(function (i) {
 
 singalPinIcon.forEach(function (i) {
   i.addEventListener("click", function (e) {
-    console.log(e);
+    let pineTargatName = e.target.getAttribute("name");
+    for (let i = 0; i < pinLocationInformation.length; i++) {
+      if (pineTargatName == pinLocationInformation[i].id) {
+        console.log(pinLocationInformation[i].profile_image[0]);
+        countryInfoSidBar.innerHTML = `
+        <div class="countryInfoSidBarContainer">
+        <div class="countryInfoSidBarCancel"><i class="fa fa-times" aria-hidden="true"></i></div>
+        <div class="countryInfoSidBarImage">
+          <img src="${pinLocationInformation[i].profile_image}" alt="${pinLocationInformation[i].profile_image.img1}" />
+        </div>
+        <div class="countryInfoName">
+          <h2>${pinLocationInformation[i].name}</h2>
+          <p>${pinLocationInformation[i].address[0]}</p>
+        </div>
+        <div class="countryInfoSidBarNavegation">
+          <ul>
+            <li>
+              <a href="${pinLocationInformation[i].google_map}" target="_blank">
+                <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                <p>Directions</p>
+              </a>
+            </li>
+            <li>
+              <a href="${pinLocationInformation[i].google_map}" target="_blank">
+                <i class="fa fa-map-o" aria-hidden="true"></i>
+                <p>Google Map</p>
+              </a>
+            </li>
+            <li>
+              <a href="${pinLocationInformation[i].google_map}" target="_blank">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <p>Send to phone</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="countryInfoSidBarQuickFacts">
+          <h3>Quick facts</h3>
+          <p>
+          ${pinLocationInformation[i].address[1]}
+          </p>
+        </div>
+
+        <div class="countryInfoSidBarGoogleMap">
+            <iframe
+              src="${pinLocationInformation[i].iframe_src}"
+              width="350"
+              height="230"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+      </div>
+        `;
+      }
+    }
+    const countryInfoSidBarCancelI = document.querySelector(
+      ".countryInfoSidBarCancel i"
+    );
+    countryInfoSidBarCancelI.addEventListener("click", function () {
+      countryInfoSidBar.innerHTML = " ";
+    });
   });
 });
 
@@ -233,10 +267,13 @@ singalCountryMap.forEach(function (i) {
     const targetName = e.target.getAttribute("name");
 
     for (let i = 0; i < apitData.length; i++) {
-      // console.log(apitData[i].name.common);
-      if (targetName == apitData[i].name.common) {
+      if (
+        targetName == apitData[i].name.common ||
+        targetName == apitData[i].name.official
+      ) {
         countryInfoSidBar.innerHTML = `
-        
+        <div class="countryInfoSidBarContainer">
+        <div class="countryInfoSidBarCancel"><i class="fa fa-times" aria-hidden="true"></i></div>
         <div class="countryInfoSidBarImage">
           <img src="${apitData[i].flags.png}" alt="${apitData[i].flags.alt}" />
         </div>
@@ -272,13 +309,31 @@ singalCountryMap.forEach(function (i) {
           ${apitData[i].flags.alt}
           </p>
         </div>
-        
-      </div>
-        
-        `;
 
-        console.log(apitData[i]);
+      </div>
+
+        `;
       }
     }
+    const countryInfoSidBarCancel = document.querySelector(
+      ".countryInfoSidBarCancel i"
+    );
+    countryInfoSidBarCancel.addEventListener("click", function () {
+      countryInfoSidBar.innerHTML = " ";
+    });
   });
+});
+
+countryInfoSidBar.addEventListener("mouseover", function () {
+  const countryInfoSidBarCancel = document.querySelector(
+    ".countryInfoSidBarCancel"
+  );
+  countryInfoSidBarCancel.style.opacity = "1";
+});
+
+countryInfoSidBar.addEventListener("mouseout", function () {
+  const countryInfoSidBarCancel = document.querySelector(
+    ".countryInfoSidBarCancel"
+  );
+  countryInfoSidBarCancel.style.opacity = "0";
 });
