@@ -101,22 +101,26 @@ function loadAvin() {
   let pageX = window.innerWidth;
   let pageY = window.innerHeight;
 
-  console.log(pageX, pageY);
   if (pageX >= 1600 || pageY >= 1600) {
-    positionPinIcon(".pniLocationBD", ".singalPinIcon.BD", -20, -1);
+    positionPinIcon(".pniLocationBD", ".singalPinIcon.BD", -21, -1);
     positionPinIcon(".pniLocationIN", ".singalPinIcon.IN", 30, 22);
     positionPinIcon(".pniLocationAT", ".singalPinIcon.AT", -28, 1);
     positionPinIcon(".pniLocationNOR", ".singalPinIcon.NOR", -1, -2);
   } else if (pageX >= 1000 || pageY >= 1000) {
     positionPinIcon(".pniLocationBD", ".singalPinIcon.BD", -25, -1);
-    positionPinIcon(".pniLocationIN", ".singalPinIcon.IN", 15, 20);
-    positionPinIcon(".pniLocationAT", ".singalPinIcon.AT", -29, 1);
-    positionPinIcon(".pniLocationNOR", ".singalPinIcon.NOR", -2, -2);
-  } else {
-    positionPinIcon(".pniLocationBD", ".singalPinIcon.BD", -20, -30);
-    positionPinIcon(".pniLocationIN", ".singalPinIcon.IN", 40, 20);
-    positionPinIcon(".pniLocationAT", ".singalPinIcon.AT", -2, 1);
-    positionPinIcon(".pniLocationNOR", ".singalPinIcon.NOR", -4, -5);
+    positionPinIcon(".pniLocationIN", ".singalPinIcon.IN", 30, 22);
+    positionPinIcon(".pniLocationAT", ".singalPinIcon.AT", -28, 1);
+    positionPinIcon(".pniLocationNOR", ".singalPinIcon.NOR", 5, -2);
+  } else if (pageX >= 600 || pageY >= 600) {
+    positionPinIcon(".pniLocationBD", ".singalPinIcon.BD", -16, -2);
+    positionPinIcon(".pniLocationIN", ".singalPinIcon.IN", 2, 8);
+    positionPinIcon(".pniLocationAT", ".singalPinIcon.AT", -19, 1);
+    positionPinIcon(".pniLocationNOR", ".singalPinIcon.NOR", -8, -2);
+  } else if (pageX >= 320) {
+    positionPinIcon(".pniLocationBD", ".singalPinIcon.BD", -20, -2);
+    positionPinIcon(".pniLocationIN", ".singalPinIcon.IN", 5, 8);
+    positionPinIcon(".pniLocationAT", ".singalPinIcon.AT", -18, 0);
+    positionPinIcon(".pniLocationNOR", ".singalPinIcon.NOR", -5, -3);
   }
 }
 
@@ -206,8 +210,8 @@ singalPinIcon.forEach(function (i) {
         <div class="countryInfoSidBarGoogleMap">
             <iframe
               src="${pinLocationInformation[i].iframe_src}"
-              width="350"
-              height="230"
+              width="310"
+              height="220"
               style="border: 0"
               allowfullscreen=""
               loading="lazy"

@@ -6,16 +6,17 @@
   box-sizing: border-box;
 }
 
-body {
+.map-container {
   width: 100%;
   height: 100vh;
   overflow: hidden;
   transition: all 0.2s;
   background: #6cd2e7; /*344475  */
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
-svg {
+.map-container .mpaSVG svg {
   width: 100%;
   height: 100vh;
 }
@@ -104,8 +105,8 @@ svg {
 .countryInfoSidBarContainer {
   position: relative;
   height: 100vh;
-  max-width: 408px;
-  min-width: 408px;
+  max-width: 360px;
+  min-width: 360px;
   overflow-y: auto;
   overflow-x: hidden;
   background-color: #fff;
@@ -232,4 +233,13 @@ svg {
 .countryInfoSidBarCancel i {
   font-size: 20px;
   color: #f3f3f3;
+}
+
+@media screen and (max-width: 600px) {
+  .singalPinIcon {
+    font-size: 20px;
+  }
+  .countryInfoSidBarCancel {
+    opacity: 1;
+  }
 }
